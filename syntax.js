@@ -27,5 +27,11 @@ const COLORS = { red, blue };
 //-------------------------------------------------//
 //
 
+const fields = ['firstName', 'lastName', 'phoneNumber'];
+
+const props = { fields };
+
+//-------------------------------------------------//
+//
 
 
