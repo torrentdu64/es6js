@@ -89,4 +89,22 @@ function product(...numbers) {
 //-------------------------------------------------//
 //
 
+function join(...arrays) {
+  return arrays.reduce((prev, next) => [...prev, ...next], []);
+}
+
+
+//-------------------------------------------------//
+//
+
+const unshift = (array, ...arg) => [...arg].concat(array);
+
+//-------------------------------------------------//
+//
+
+
+
+
+
+
 
