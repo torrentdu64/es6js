@@ -34,4 +34,19 @@ const props = { fields };
 //-------------------------------------------------//
 //
 
+const canvasDimensions = (width, initialHeight) => {
+  const height = initialHeight * 9 /16;
+  return {
+    width,
+    height
+  };
+};
+
+//-------------------------------------------------//
+//
+
+
+
+
+
 
