@@ -135,6 +135,18 @@ function double([num1,...num2]) {
 
 
 
+//-------------------------------------------------//
+//
+
+
+class Monster {
+    constructor(options){
+      this.health =  100;
+      this.name =  options.name;
+    }
+
+}
+
 
 
 
