@@ -125,6 +125,13 @@ const classesAsObject = classes.map( ([subject, time, teacher]) => {
 //-------------------------------------------------//
 //
 
+const numbers = [1,2,3];
+
+function double([num1,...num2]) {
+    if(num1===undefined) return [];
+    if (num2.length===0) return [2*num1];
+    return [2*num1,...double(num2)];
+}
 
 
 
