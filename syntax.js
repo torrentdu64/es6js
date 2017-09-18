@@ -67,3 +67,26 @@ const sum = (a = 0, b = 0) => a + b;
 
 //-------------------------------------------------//
 //
+
+function addOffset(style = {}) {
+
+
+  style.offset = '10px';
+
+  return style;
+}
+
+//-------------------------------------------------//
+//
+
+function product(...numbers) {
+
+
+  return numbers.reduce( (acc, number) => acc * number, 1);
+
+}
+
+//-------------------------------------------------//
+//
+
+
